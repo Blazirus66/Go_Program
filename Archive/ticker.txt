@@ -1,0 +1,9 @@
+Prix de demande: 0.36900
+Prix d'offre: 0.36700
+Dernier prix d'échange: 0.37100
+Volume: 17968.37475970
+Prix moyen pondéré du volume: 0.37147
+Nombre d'échanges: 25
+Prix le plus bas de la journée: 0.36800
+Prix le plus haut de la journée: 0.37600
+Prix d'ouverture: 0.37500

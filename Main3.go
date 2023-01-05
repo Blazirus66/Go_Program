@@ -89,7 +89,7 @@ func main() {
 
 	// Mettre en forme les données de la structure Ticker
 	datas := fmt.Sprintf("Prix de demande: %s\nPrix d'offre: %s\nDernier prix d'échange: %s\nVolume: %s\nPrix moyen pondéré du volume: %s\nNombre d'échanges: %d\nPrix le plus bas de la journée: %s\nPrix le plus haut de la journée: %s\nPrix d'ouverture: %s\n",
-		ticker.Ask[0], ticker.Bid[0], ticker.LastTrade[0], ticker.Volume[1], ticker.VolumeWeightedAveragePrice[1], ticker.NumberOfTrades[1], ticker.Low[1], ticker.High[1], ticker.OpeningPrice[1])
+		ticker.Ask[0], ticker.Bid[0], ticker.LastTrade[0], ticker.Volume[1], ticker.VolumeWeightedAveragePrice[1], ticker.NumberOfTrades[1], ticker.Low[1], ticker.High[1], ticker.OpeningPrice)
 
 	// Écrivez les données dans le fichier
 	_, err = file.WriteString(datas)
